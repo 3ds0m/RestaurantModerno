@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SABROSO - Cocina Latinoamericana en Madrid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="reservar.html">RESERVAR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">RESTAURANTES</a>
+              </li>
+            </ul>
+      
+            <!-- Marca centrada -->
+            <a class="navbar-brand mx-auto" href="index.html">SABROSO</a>
+      
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="carta.html">CARTA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section index-hero">
+        <div class="overlay"></div>
+        <div class="container text-center text-white">
+            <h1 class="display-4">COCINA</h1>
+        </div>
+    </section>
+
+    <!-- Descripción -->
+    <section class="description-section text-center">
+        <div class="container">
+            <p class="lead">
+                Sabroso es el sueño hecho restaurante de su chef Fernando Ruiz y su cocina personal y apasionada de entender la gastronomía, sentirla y servirla.
+            </p>
+            <p>
+                Con nuestra propia identidad y forma de servir y cuidar que te sientas como en casa en cada uno de nuestros restaurantes, donde buenas dosis de la cocina latinoamericana, auténtica y contemporánea.
+            </p>
+            <h3 class="mt-5 mb-4">CONOCE NUESTROS RESTAURANTES</h3>
+        </div>
+    </section>
+
+    <!-- Restaurantes -->
+    <section class="restaurants-section" id="restaurantes">
+        <div class="container-fluid p-0">
+            <div class="row g-0 align-items-stretch">
+                <div class="col-md-6">
+                    <div class="restaurant-info p-5">
+                        <h2 class="mb-4">SABROSO</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>LOCALIZACIÓN</h5>
+                                <p>C/ Falsa, 785<br>Chamberí, 28010<br>Madrid</p>
+                                <h5>CONTACTO</h5>
+                                <p>999 999 999</p>
+                                <a href="reservar.html" class="btn btn-outline-dark btn-sm">RESERVAR</a>
+                                <a href="carta.html" class="btn btn-outline-dark btn-sm ms-2">VER CARTA</a>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>HORARIOS</h5>
+                                <p>Lunes a Sábados<br>1:30 pm a 12:30 am</p>
+                                <p>Domingos<br>1:30 pm a 4:30 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="restaurant-image" id="restaurant-image-1"></div>
+                </div>
+            </div>
+            <div class="row g-0 align-items-stretch">
+                <div class="col-md-6 order-md-2">
+                    <div class="restaurant-info p-5 bg-accent">
+                        <h2 class="mb-4">SABROSO MORALEJA</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>LOCALIZACIÓN</h5>
+                                <p>Centro Comercial falsa<br>Calle de la Estación, x<br>28109 Alcobendas<br>Madrid</p>
+                                <h5>CONTACTO</h5>
+                                <p>999 999 999</p>
+                                <a href="reservar.html" class="btn btn-outline-dark btn-sm">RESERVAR</a>
+                                <a href="carta.html" class="btn btn-outline-dark btn-sm ms-2">VER CARTA</a>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>HORARIOS</h5>
+                                <p>Lunes a Sábados<br>1:30 pm a 12:30 am</p>
+                                <p>Domingos<br>1:30 pm a 4:30 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="restaurant-image" id="restaurant-image-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">CONTÁCTANOS</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="NOMBRE">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="APELLIDO">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="tel" class="form-control" placeholder="TELÉFONO">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" placeholder="CORREO ELECTRÓNICO">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="MENSAJE"></textarea>
+                </div>
+                <div class="text-end">
+                    <button type="submit" class="btn btn-light">ENVIAR</button>
+                </div>
+                <div class="form-text text-white mt-3">
+                    Los datos que nos proporciones serán tratados por SABROSO con la finalidad de gestionar tu solicitud o consulta. Puedes ejercer tus derechos de acceso, rectificación, supresión y portabilidad de tus datos, así como la limitación u oposición a su tratamiento.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-4">SABROSO</h3>
+                    <p>C/ Falsa, 15<br>Chamberí, 28010<br>Madrid<br>913 45 67 89</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-4">SABROSO MORALEJA</h3>
+                    <p>Centro Comercial Falso<br>Calle de la Estación, 150<br>28109 Alcobendas<br>Madrid<br>999 999 999</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="mb-4">ENLACES</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="reservar.html" class="text-white">RESERVAR</a></li>
+                        <li><a href="#restaurantes" class="text-white">RESTAURANTES</a></li>
+                        <li><a href="carta.html" class="text-white">CARTA</a></li>
+                        <li><a href="nosotros.html" class="text-white">NOSOTROS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2025 SABROSO. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
